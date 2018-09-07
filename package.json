@@ -1,0 +1,23 @@
+{
+  "name": "music_func",
+  "version": "1.0.1",
+  "description": "it is a plugin about music player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "music"
+  ],
+  "author": "xuxut",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxut/music_func.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xuxut/music_func/issues"
+  },
+  "homepage": "https://github.com/xuxut/music_func#readme"
+}
