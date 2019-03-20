@@ -26,6 +26,7 @@ module.exports = {
     // 自动扩展文件后缀名，意味着require时不必加这个后缀
     extensions: ['.js', '.jsx']
   },
+  // webpack-dev-server通过websocket通信，可直接打开浏览器，支持热更新
   devServer: {
     port: 8001
   }
