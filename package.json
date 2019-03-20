@@ -1,23 +1,40 @@
 {
-  "name": "music_func",
-  "version": "1.0.1",
-  "description": "it is a plugin about music player",
+  "name": "react-music-func",
+  "version": "1.0.0",
+  "description": "a plugin of music player",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxut/react-music-func.git"
   },
   "keywords": [
-    "javascript",
-    "music"
+    "react",
+    "music",
+    "音乐"
   ],
   "author": "xuxut",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xuxut/music_func.git"
-  },
   "bugs": {
-    "url": "https://github.com/xuxut/music_func/issues"
+    "url": "https://github.com/xuxut/react-music-func/issues"
   },
-  "homepage": "https://github.com/xuxut/music_func#readme"
+  "homepage": "https://github.com/xuxut/react-music-func#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {}
 }
